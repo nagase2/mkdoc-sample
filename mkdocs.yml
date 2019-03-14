@@ -1,0 +1,30 @@
+site_name: 私のサイト
+# nav:
+#   - Home: index.md
+#   - About: about.md
+theme:
+  logo:
+    icon: 'cloud'
+  name: 'material'
+  #name: 'mkdocs'
+  language: 'ja'
+  feature:
+     tabs: true
+  palette:
+    primary: 'green'
+    accent: 'pink'
+
+extra_css:
+  - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+  - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+  - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+  - "css/custom.css"
+
+
+extra:
+    search:
+        language: 'jp'
+
+markdown_extensions:
+  - admonition
+  - fontawesome_markdown
